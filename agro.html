@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="in">
+    <link rel="stylesheet" href="./CSS/Agro.css">
+    <link rel="stylesheet" href="./JS/Agro.js">
+    <link rel="stylesheet" href="./CSS/menu1.css">
+    <link rel="stylesheet" href="./CSS/menu2.css">
+    <link rel="stylesheet" href="./CSS/iconc.css">
+    <link rel="stylesheet" href="./JS/productos.js">
+    <link rel="stylesheet" href="./JS/menu.js">
+    <link rel="icon" href="./Imagenes/Iconos/icon_planta.png">
+    <link rel="stylesheet" href="./productos/producto_1.html">
+    <link rel="stylesheet" href="./productos/producto_2.html">
+    <link rel="stylesheet" href="./productos/producto_3.html">
+    <link rel="stylesheet" href="./productos/producto_4.html">
+    <link rel="stylesheet" href="./productos/producto_5.html">
+    <link rel="stylesheet" href="./productos/producto_6.html">
+    <link rel="stylesheet" href="./productos/producto_7.html">
+    <link rel="stylesheet" href="./productos/producto_8.html">
+    <link rel="stylesheet" href="./productos/producto_9.html">
+    <link rel="stylesheet" href="./productos/producto_10.html">
+    <link rel="stylesheet" href="./productos/producto_11.html">
+    <link rel="stylesheet" href="./productos/producto_12.html">
+    <link rel="stylesheet" href="./productos/producto_13.html">
+    <link rel="stylesheet" href="./productos/producto_14.html">
+    <link rel="stylesheet" href="./productos/producto_15.html">
+    <link rel="stylesheet" href="./productos/producto_16.html">
+    
+    <link rel="stylesheet" href="./productos/producto_17.html">
+    <link rel="stylesheet" href="./productos/producto_18.html">
+    <link rel="stylesheet" href="./productos/producto_19.html">
+    <link rel="stylesheet" href="./productos/producto_20.html">
+    <link rel="stylesheet" href="./productos/producto_21.html">
+    <link rel="stylesheet" href="./productos/producto_22.html">
+    <link rel="stylesheet" href="./productos/producto_23.html">
+    <link rel="stylesheet" href="./productos/producto_24.html">
+    <link rel="stylesheet" href="./productos/producto_25.html">
+    <link rel="stylesheet" href="./productos/producto_26.html">
+    <link rel="stylesheet" href="./productos/producto_27.html">
+    <link rel="stylesheet" href="./productos/producto_28.html">
+    <link rel="stylesheet" href="./productos/producto_29.html">
+    <link rel="stylesheet" href="./productos/producto_30.html">
+    <link rel="stylesheet" href="./productos/producto_31.html">
+    <link rel="stylesheet" href="./productos/producto_32.html">
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <script src="./JS/Agro.js"></script>
+  
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agro</title>
+    </head>
+
+    <body>
+      
+        
+     
+        <header>
+          
+            <img src="./Imagenes/Iconos/icon_planta.png" class ="icon_planta">
+            <h1 class="nombre">Agro</h1>
+        
+        
+            <div class="buscar">
+                <img src="./Imagenes/Iconos/icon_lupa.png" alt="" class="lupa">
+                <form name="entrada">
+                    <input type="text" id="buscar" placeholder="buscar" name="busc">
+              </div>
+              <input onclick="lup()" class="go"  type="button" value="ir">
+            </div>
+
+         
+            <div class="m">
+                <div class="menu1">
+                    
+                    <nav class="acerca_nosotros">
+                        <ul>
+                            <li>
+                                <a >Esta pagina</a>
+                                <ul>
+                                    <li><a style="color: antiquewhite;" onclick="on()" >Menu</a></li>
+                                    <li><a style="color: antiquewhite;" href="">Acerca de nosotros</a></li>
+                                    <li><a style="color: antiquewhite;" href="./web-grafia.html">Web grafia de imagenes</a></li>
+                                    <li><a style="color: antiquewhite;" >Ayuda</a></li>
+            
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="menu2">
+                    <nav class="otras_opciones">
+                        <ul>
+                            <li>
+                                <a >Otras opciones</a>
+                                <ul>
+                                    <li><a style="color: antiquewhite;" href="">Mi perfil</a></li>
+                                    <li><a style="color: antiquewhite;" href="">Vender</a></li>
+                                    <li><a style="color: antiquewhite;" href="">Configuraciones</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+           
+        </header>
+        <div id="menu">
+            <a class="op1" href="#verduras" onclick="cerrar()">Ofertas</a>
+            <a class="op2" href="#producto_17" onclick="cerrar()">Frutas y Verduras</a>
+            <h1 id="salir" onclick="cerrar()">X</h1>
+        </div>
+
+        <main id="prod">
+            <div class="productos" id="productos">
+      
+                <div class="productos">
+                        <p class="verduras" id="verduras">Ofertas</p>
+                        <div id="ver"></div>
+                        <div class="flecha" id="atras">
+                            <img src="./Imagenes/Iconos/icon_flecha.png" class="atras" id="atras" onclick="bt2()">
+                        </div>
+                       
+                        <div class="cara_1" id="cara_delante">
+                            <a href=".//productos/producto_1.html" class="bT_comprar">
+                                <div class="producto_1" id="producto_1">
+                                    <img class="Imagenes" id="img_1" src="./Imagenes/Ofertas/img_1.png" alt="">
+                                    <div id="info_1">
+                                        <p class="name">Fresas X 1 kg</p>
+                                        <h4 class="descuento">2.3% off</h4>
+                                        <h1 class="precio">$1.000 </n1>
+                                    </div>
+                                  
+                                </div>
+                            </a>
+                            <a href="./productos/producto_2.html" class="bT_comprar">
+                                <div class="producto_2" id="producto_2">
+                                    <img class="Imagenes " id="img_2" src="./Imagenes/Ofertas/img_2.png" alt="">
+                                    <div id="info_2">
+                                        <p class="name">mango X 1 kg</p>
+                                        <h4 class="descuento">10.4% off</h4>
+                                        <h1 class="precio">$2.000 </n1>
+                                    </div>
+                                   
+                                </div>
+                            </a>
+                            <a href="./productos/producto_3.html" class="bT_comprar">
+                                <div class="producto_3" id="producto_3">
+                                    <img class="Imagenes " id="img_3" src="./Imagenes/Ofertas/img_3.png" alt="">
+                                    <div id="info_3">
+                                        <p class="name">kiwi X 1 kg</p>
+                                        <h4 class="descuento">3.0% off</h4>
+                                        <h1 class="precio">$2.000 </n1>
+                                    </div>
+                                     
+                                </div>
+                            </a>
+                            <a href="./productos/producto_4.html" class="bT_comprar">
+                                <div class="producto_4" id="producto_4">
+                                    <img class="Imagenes " id="img_4" src="./Imagenes/Ofertas/img_4.png" alt="">
+                                    <div id="info_4">
+                                        <p class="name">Tomate maduro X 1 kg</p>
+                                        <h4 class="descuento">4.50% off</h4>
+                                        <h1 class="precio">$3.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                      
+                        <div class="cara_arriba" id="cara_arriba">
+                                    
+                                <a href="./productos/producto_5.html" class="bT_comprar">
+                                    <div class="producto_5" id="producto_5">
+                                        <img class="Imagenes " id="img_5" src="./Imagenes/Ofertas/img_5.png" alt="">
+                                        <div id="info_5">
+                                            <p class="name">Peras X 2 kg</p>
+                                            <h4 class="descuento">20% off</h4>
+                                            <h1 class="precio">$3.000 </n1>
+                                        </div>
+                                        
+                                    </div>
+                                </a>
+                                <a href="./productos/producto_6.html" class="bT_comprar">
+                                    <div class="producto_6" id="producto_6">
+                                        <img class="Imagenes " id="img_6" src="./Imagenes/Ofertas/img_6.png" alt="">
+                                        <div id="info_6">
+                                            <p class="name">Piña X 1 unidad</p>
+                                            <h4 class="descuento">30.2% off</h4>
+                                            <h1 class="precio">$4.500 </n1>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="./productos/producto_7.html" class="bT_comprar">
+                                    <div class="producto_7" id="producto_7">
+                                        <img class="Imagenes " id="img_7" src="./Imagenes/Ofertas/img_7.png" alt="">
+                                        <div id="info_7">
+                                            <p class="name">piña X 3 unidades</p>
+                                            <h4 class="descuento">35% off</h4>
+                                            <h1 class="precio">$1.000 </n1>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="./productos/producto_8.html" class="bT_comprar">
+                                    <div class="producto_8" id="producto_8">
+                                        <img class="Imagenes " id="img_8" src="./Imagenes/Ofertas/img_8.png" alt="">
+                                        <div id="info_8">
+                                            <p class="name">Manzana madura X 3 unidades</p>
+                                            <h4 class="descuento">10.3% off</h4>
+                                            <h1 class="precio">$3.000 </n1>
+                                        </div>
+                                    </div>
+                                </a>
+                        </div>
+                        <div class="cara3" id="cara3">
+                            <a href="./productos/producto_9.html" class="bT_comprar">
+                                <div class="producto_9" id="producto_9">
+                                    <img class="Imagenes" id="img_9" src="./Imagenes/Ofertas/img_9.png" alt="">
+                                    <div id="info_9">
+                                        <p class="name">Aguacate Hash X 3 unidades</p>
+                                        <h4 class="descuento">5.1% off</h4>
+                                        <h1 class="precio">$5.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_10.html" class="bT_comprar">
+                                <div class="producto_10" id="producto_10">
+                                    <img class="Imagenes" id="img_10" src="./Imagenes/Ofertas/img_10.png" alt="">
+                                    <div id="info_10">
+                                        <p class="name">pitalla X 1 kg</p>
+                                        <h4 class="descuento">2.1% off</h4>
+                                        <h1 class="precio">$4.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_11.html" class="bT_comprar">
+                                <div class="producto_11" id="producto_11">
+                                    <img class="Imagenes" id="img_11" src="./Imagenes/Ofertas/img_11.png" alt="">
+                                    <div id="info_11">
+                                        <p class="name">naranja X 1 kg</p>
+                                        <h4 class="descuento">30% off</h4>
+                                        <h1 class="precio">$4.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_12.html" class="bT_comprar">
+                                <div class="producto_12" id="producto_12">
+                                    <img class="Imagenes" id="img_12" src="./Imagenes/Ofertas/img_12.png" alt="">
+                                    <div id="info_12">
+                                        <p class="name">naranja X 1 kg</p>
+                                        <h4 class="descuento">5.0% off</h4>
+                                        <h1 class="precio">$4.500 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cara3" id="cara3">
+                            <a href="./productos/producto_13.html" class="bT_comprar">
+                                <div class="producto_13" id="producto_13">
+                                    <img class="Imagenes" id="img_13" src="./Imagenes/Ofertas/img_13.png" alt="">
+                                    <div id="info_13">
+                                        <p class="name">Banano X 6 unidaes</p>
+                                        <h4 class="descuento">15.2% off</h4>
+                                        <h1 class="precio">$3.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_14.html" class="bT_comprar">
+                                <div class="producto_14" id="producto_14">
+                                    <img class="Imagenes" id="img_14" src="./Imagenes/Ofertas/img_14.png" alt="">
+                                    <div id="info_14">
+                                        <p class="name">banano X 2 unidades</p>
+                                        <h4 class="descuento">10.1% off</h4>
+                                        <h1 class="precio">$1.200 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_15.html" class="bT_comprar">
+                                <div class="producto_15" id="producto_15">
+                                    <img class="Imagenes" id="img_15" src="./Imagenes/Ofertas/img_15.png" alt="">
+                                    <div id="info_15">
+                                        <p class="name">zandia X 1 kg</p>
+                                        <h4 class="descuento">0.2% off</h4>
+                                        <h1 class="precio">$6.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_16.html" class="bT_comprar">
+                                <div class="producto_16" id="producto_16">
+                                    <img class="Imagenes" id="img_16" src="./Imagenes/Ofertas/img_16.png" alt="">
+                                    <div id="info_16">
+                                        <p class="name">uvas X 1 kg</p>
+                                        <h4 class="descuento">2.0% off</h4>
+                                        <h1 class="precio">$3.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flecha_delante" id="delante">
+                            <img src="./Imagenes/Iconos/icon_flecha.png" class="delante"id="delante" onclick="bt1()">
+                        </div>
+                       
+                        
+                </div>
+                     <div class="intereses">
+                        <p class="Frutas">Tambien puede que te interese</p>
+                        <div class="flecha_o" id="atras_in_o">
+                            <img src="./Imagenes/Iconos/icon_flecha.png" class="atras_in_o" id="atras_in_o" onclick="bt6()">
+                        </div>
+                        <div class="cara_1" id="cara_delante">
+                            <a href="./productos/producto_7.html" class="bT_comprar">
+                                <div class="producto_17" id="producto_17">
+                                    <img class="Imagenes" id="In_img_1" src="./Imagenes/Interes/In_img_1.png" alt="">
+                                    <div id="info_17">
+                                        <p class="name">pepino X 1 kg</p>
+                                        <h4 class="descuento">0.5% off</h4>
+                                        <h1 class="precio">$2.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_18.html" class="bT_comprar">
+                                <div class="producto_18" id="producto_18">
+                                    <img class="Imagenes" id="In_img_2" src="./Imagenes/Interes/In_img_2.png" alt="">
+                                    <div id="info_18">
+                                        <p class="name">zanahoria X 1 kg</p>
+                                        <h4 class="descuento">8.2% off</h4>
+                                        <h1 class="precio">$2.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_19.html" class="bT_comprar">
+                                <div class="producto_19" id="producto_19">
+                                    <img class="Imagenes" id="In_img_3" src="./Imagenes/Interes/In_img_3.png" alt="">
+                                    <div id="info_19">
+                                        <p class="name">coles X 1 lb</p>
+                                        <h4 class="descuento">2% off</h4>
+                                        <h1 class="precio">$500 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_20.html" class="bT_comprar">
+                                <div class="producto_20" id="producto_20">
+                                    <img class="Imagenes" id="In_img_4" src="./Imagenes/Interes/In_img_4.png" alt="">
+                                    <div id="info_20">
+                                        <p class="name">maiz  X 1 kg</p>
+                                        <h4 class="descuento">10% off</h4>
+                                        <h1 class="precio">$900 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="cara_arriba" id="cara_arriba">
+                            <a href="./productos/producto_21.html" class="bT_comprar">
+                                <div class="producto_21" id="producto_21">
+                                    <img class="Imagenes" id="In_img_5" src="./Imagenes/Interes/In_img_5.png" alt="">
+                                    <div id="info_21">
+                                        <p class="name">brocoli X 1 lb</p>
+                                        <h4 class="descuento">1.3% off</h4>
+                                        <h1 class="precio">$1000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_22.html" class="bT_comprar">
+                                <div class="producto_22" id="producto_22">
+                                    <img class="Imagenes" id="In_img_6" src="./Imagenes/Interes/In_img_6.png" alt="">
+                                    <div id="info_22">
+                                        <p class="name">Tomate X 1 kg</p>
+                                        <h4 class="descuento">2.3% off</h4>
+                                        <h1 class="precio">$2000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_23.html" class="bT_comprar">
+                                <div class="producto_23" id="producto_23">
+                                    <img class="Imagenes" id="In_img_7" src="./Imagenes/Interes/In_img_7.png" alt="">
+                                    <div id="info_23">
+                                        <p class="name">papa X 1 kg</p>
+                                        <h4 class="descuento">50% off</h4>
+                                        <h1 class="precio">$2.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_24.html" class="bT_comprar">
+                                <div class="producto_24" id="producto_24">
+                                    <img class="Imagenes" id="In_img_8" src="./Imagenes/Interes/In_img_8.png" alt="">
+                                    <div id="info_24">
+                                        <p class="name">Arroz diana X 1 lb</p>
+                                        <h4 class="descuento">5% off</h4>
+                                        <h1 class="precio">$3.500 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="cara_arriba" id="cara_arriba">
+                            <a href="./productos/producto_25.html" class="bT_comprar">
+                                <div class="producto_25" id="producto_25">
+                                    <img class="Imagenes" id="In_img_9" src="./Imagenes/Interes/In_img_9.png" alt="">
+                                    <div id="info_25">
+                                        <p class="name">arroz roa X 1 lb</p>
+                                        <h4 class="descuento">10% off</h4>
+                                        <h1 class="precio">$2.950 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_26.html" class="bT_comprar">
+                                <div class="producto_26" id="producto_26">
+                                    <img class="Imagenes" id="In_img_10" src="./Imagenes/Interes/In_img_10.png" alt="">
+                                    <div id="info_26">
+                                        <p class="name">Pitalla X 1 kg</p>
+                                        <h4 class="descuento">2.1% off</h4>
+                                        <h1 class="precio">$4.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_27.html" class="bT_comprar">
+                                <div class="producto_27" id="producto_27">
+                                    <img class="Imagenes" id="In_img_11" src="./Imagenes/Interes/In_img_11.png" alt="">
+                                    <div id="info_27">
+                                        <p class="name">uvas X 1 kg</p>
+                                        <h4 class="descuento">0.1% off</h4>
+                                        <h1 class="precio">$4.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_28.html" class="bT_comprar">
+                                <div class="producto_28" id="producto_28">
+                                    <img class="Imagenes" id="In_img_12" src="./Imagenes/Interes/In_img_12.png" alt="">
+                                    <div id="info_28">
+                                        <p class="name">zandia X 1 kg</p>
+                                        <h4 class="descuento">0.5% off</h4>
+                                        <h1 class="precio">$3.600 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="cara_arriba" id="cara_arriba">
+                            <a href="./productos/producto_29.html" class="bT_comprar">
+                                <div class="producto_29" id="producto_29">
+                                    <img class="Imagenes" id="In_img_13" src="./Imagenes/Interes/In_img_13.png" alt="">
+                                    <div id="info_29">
+                                        <p class="name">bananos X 2 unidades</p>
+                                        <h4 class="descuento">1.5% off</h4>
+                                        <h1 class="precio">$1.450 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_30.html" class="bT_comprar">
+                                <div class="producto_30" id="producto_30">
+                                    <img class="Imagenes" id="In_img_14" src="./Imagenes/Interes/In_img_14.png" alt="">
+                                    <div id="info_30">
+                                        <p class="name">Mango X 1 unidad</p>
+                                        <h4 class="descuento">0.1% off</h4>
+                                        <h1 class="precio">$3.000 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_31.html" class="bT_comprar">
+                                <div class="producto_31" id="producto_31">
+                                    <img class="Imagenes" id="In_img_15" src="./Imagenes/Interes/In_img_15.png" alt="">
+                                    <div id="info_31">
+                                        <p class="name">fresas X 1 kg</p>
+                                        <h4 class="descuento">0.8% off</h4>
+                                        <h1 class="precio">$1.300 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./productos/producto_32.html" class="bT_comprar">
+                                <div class="producto_32" id="producto_32">
+                                    <img class="Imagenes" id="In_img_16" src="./Imagenes/Interes/In_img_16.png" alt="">
+                                    <div id="info_32">
+                                        <p class="name">manzana X 3 unidades</p>
+                                        <h4 class="descuento">0.1% off</h4>
+                                        <h1 class="precio">$6.999 </n1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="flecha_a" id="atras_in_a">
+                            <img src="./Imagenes/Iconos/icon_flecha.png" class="atras_in_a" id="atras_in_a" onclick="bt5()">
+                        </div>
+                     
+                     </div>
+                  
+                    
+
+                </div>
+            
+
+            
+            </div>
+            
+        </main>
+      
+       
+       <script src="./JS/productos.js"></script>
+       <scriptsr src="./JS/interes.js"></script>
+        <scriptsr src="./JS/menu.js"></script>
+
+    </body>
+  
+</html>

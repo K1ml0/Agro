@@ -1,0 +1,678 @@
+header{
+    width: 100%;
+    height: 25%;
+    position: fixed;
+    z-index: 3;
+
+    background-color: rgb(40, 40, 40);
+}
+
+body{
+    background-color: rgb(222, 227, 249);
+
+}main{
+    position: relative;
+    top: 180px;
+}
+section{
+    position: relative;
+    top: 300px;
+}
+
+.nombre{
+    position: absolute;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;/*mayuscula*/
+    padding-left: 30px;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+    top: 20%;
+    left: 1%;
+}
+
+footer{
+    background-color: rgb(40, 40, 40);
+    height: 100%;
+    width: 100%;
+}
+.icon_planta{
+    width: 50px;
+    height: 20x;
+    position: absolute;
+    top: 8%;
+    left: 4.7%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 1px solid;
+    color: white;
+}
+#buscar{
+    background-color:transparent;
+    width: 25%;
+    height: 20%;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+.lupa{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 10%;
+    left: 24%;
+  
+}
+p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.verduras, .intereses{
+    width: 100%;
+    height: 480px;
+}
+
+
+.producto_1,  .producto_2,  .producto_3,  .producto_4 , .producto_5,  .producto_6,  .producto_7,
+.producto_8,  .producto_9,  .producto_10, .producto_11, .producto_12, .producto_13, .producto_14, 
+.producto_15, .producto_16, .producto_17, .producto_18, .producto_19, .producto_20, .producto_21,
+.producto_22, .producto_23, .producto_24, .producto_25, .producto_26, .producto_27, .producto_28,
+.producto_29, .producto_30, .producto_31, .producto_32{
+    border-radius: 5px;
+}
+.producto_1:hover,  .producto_2:hover,  .producto_3:hover,  .producto_4:hover,  .producto_5:hover,
+.producto_6:hover,  .producto_7:hover,  .producto_8:hover,  .producto_9:hover,  .producto_10:hover, 
+.producto_11:hover, .producto_12:hover, .producto_13:hover, .producto_14:hover, .producto_15:hover,
+.producto_16:hover, .producto_17:hover, .producto_18:hover, .producto_19:hover, .producto_20:hover, 
+.producto_21:hover, .producto_22:hover, .producto_23:hover, .producto_24:hover, .producto_25:hover,
+.producto_26:hover, .producto_27:hover, .producto_28:hover, .producto_29:hover, .producto_30:hover, 
+.producto_31:hover, .producto_32:hover{
+  
+    box-shadow: 0 0 6px rgb(40, 40, 40), 0 0 10px rgb(40, 40, 40),0 0 30px rgb(40, 40, 40);
+
+}
+.flecha, .flecha_delante{
+   position: relative;
+   z-index: 1;
+   top: -280px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(40, 40, 40);
+    border-radius: 50px;
+}
+.atras{
+    text-align: center;
+    align-items: center;
+    transform: rotate(180deg);
+    top: -5px;
+    left: -48px;
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    
+}
+
+.flecha_delante{
+    position: absolute;
+    top: 200px;
+    left: 1145px;
+}
+
+.delante{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    left: -40px;
+    width: 150px;
+    height: 70px;
+    
+}
+.flecha:hover, .flecha_delante:hover, .flecha_o:hover, .flecha_a:hover{
+   box-shadow: 0 0 0 2px rgb(1, 87, 237), 0 0 1px rgb(1, 87, 237), 0 0 30px  rgb(1, 87, 237);
+  
+}
+.flecha_o, .flecha_a{
+    position: absolute;
+    z-index: 1;
+    top: 728px;
+     width: 60px;
+     height: 60px;
+     background-color: rgb(40, 40, 40);
+     border-radius: 50px;
+ }
+ .flecha_a{
+  
+    left: 1145px;
+   
+ }
+ .atras_in_o, .atras_in_a{
+    text-align: center;
+    align-items: center;
+    transform: rotate(180deg);
+    top: -5px;
+    left: -48px;
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    
+}
+.atras_in_a{
+    transform: rotate(0deg);
+    left: -45px;
+   
+
+}
+
+.Imagenes{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+
+    background-repeat: no-repeat;
+
+}
+#img_6{
+    position: absolute;
+    left: 85px;
+}
+ #img_7, #img_5, #img_8, #img_9, #img_10, #img_11, #img_12, #img_13, #img_15, #img_16{
+    position: absolute;
+    left: 28px;
+
+}
+#img_14, #img_1, #In_img_1, #In_img_2, #In_img_3, #In_img_4, #In_img_5, #In_img_6, #In_img_7,#In_img8, #In_img_9, #In_img_10, #In_img_11, #In_img_12, #In_img_13, #In_img_14, #In_img_15, #In_img_16{
+    left: 10px;
+}
+#In_img_10, #In_img_11, #In_img_12, #In_img_13, #In_img_14, #In_img_15, #In_img_16{
+    left: 20px;
+}
+#In_img_11{
+    top: -0px;
+}
+
+#img_16{
+    top: -5px;
+}
+#In_img_15 {
+    left: 5px;
+}
+#In_img_8{
+    top: -30px;
+    left: 30px;
+}
+#In_img_9{
+    top: -30px;
+    left: 50px;
+
+}
+
+
+.name, .precio{
+    position: absolute;
+    color: rgb(40, 40, 40);
+   
+    
+    padding-left: 30px;
+    padding-top: 2px;
+ 
+}
+
+.descuento{
+   position: relative;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    left: 70px;
+ 
+    
+    left: 130px;
+    top: 281px;
+
+}
+.name{
+    font-size: 18px;
+    top: 230px;
+}
+.precio{
+    letter-spacing: 1px;
+    font-size: 29px;
+    top: 270px;
+}
+#menu{
+
+    position: absolute;
+    z-index: 2;
+    width:400px;
+    height:700px;
+    background-Color:rgb(0, 0, 0, 0.9);
+    transform: translate(-1000px);
+}
+#salir{
+    color: whitesmoke;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(0, 0, 0, 0.7);
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 80%;
+    top: 670px;
+    z-index: 2;
+    
+}
+#salir:hover{
+    box-shadow: 0 0 10px red, 0 0 40px rebeccapurple, 0 0 60px red;
+}
+.op1, .op2{
+    z-index: 1;
+    position: absolute;
+    font-size: 19px;
+
+}
+.op1{
+    text-decoration: none;
+    color: whitesmoke;
+    left: 42%;
+    top: 35%;
+}
+.op2{
+    text-decoration: none;
+    color: whitesmoke;
+    left: 32%;
+    top: 45%;
+}
+.op1:hover{
+    color: rgb(1, 87, 237);
+}
+.op2:hover{
+    color: rgb(1, 87, 237);
+}
+.go{
+    position: absolute;
+    width: 50px;
+    height: 35px;
+    background-color: rgb(0, 0, 0, 0.7);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    border-radius: 10px;
+    left: 670px;
+    top: 17px;
+}
+.go:hover{
+    border: 2px solid;
+    color: rgb(1, 87, 237);
+}
+@media screen and (max-width:1300px){
+
+    #salir{
+        position: relative;
+        top: 150px;
+    }
+
+    #menu{
+        position: absolute;
+        top: 20px;
+    }
+ 
+ 
+
+    
+}
+@media screen and (max-width:1200px){
+
+    #salir{
+        position: relative;
+        top: 200px;
+    }
+
+    #menu{
+        position: absolute;
+        top: 20px;
+    }
+ 
+ 
+
+    
+}
+@media screen and (max-width:1100px){
+    #salir{
+        position: relative;
+        top: 200px;
+    }
+
+    #menu{
+        position: absolute;
+        top: 20px;
+    }
+ 
+ 
+
+    
+}
+
+@media screen and (max-width:1000px){
+    .icon_planta{
+        left: 57px;
+    }
+    header{
+        width: 100%;
+        height: 18%;
+        position: fixed;
+
+    }
+    .go{
+        position: relative;
+        left: 700px;
+    }
+    #salir{
+        position: absolute;
+        top: 200px;
+    }
+    #menu{
+        position: absolute;
+        top: 20px;
+    }
+ 
+
+    
+}
+/*adaptacion de celulares*/
+@media screen and (max-width:800px){
+    .icon_planta{
+        left: 57px;
+    }
+    header{
+        width: 100%;
+        height: 20%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 150%;
+        height: 480px;
+    }
+    #salir{
+        position: relative;
+        top: 200px;
+    }
+    #menu{
+        position: absolute;
+        top: 20px;
+    }
+}
+@media screen and (max-width:700px){
+    .icon_planta{
+        left: 57px;
+    }
+    header{
+        width: 100%;
+        height: 15%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    .go{
+        position: relative;
+        top: 20px;
+        left: 780px;
+    }
+    #salir{
+        position: relative;
+        top: 200px;
+    }
+    #menu{
+        position: absolute;
+        top: 20px;
+    }
+   
+    
+
+}
+@media screen and (max-width:600px){
+    .icon_planta{
+        left: 57px;
+    }
+    header{
+        width: 100%;
+        height: 15%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    .go{
+        position: relative;
+        top: 20px;
+    }
+    #salir{
+        position: relative;
+        top: 200px;
+    }
+    #menu{
+        position: absolute;
+        top: 200px;
+    }
+}
+@media screen and (max-width:500px){
+    .icon_planta{
+        left: 57px;
+    }
+    header{
+        width: 100%;
+        height: 15%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    .go{
+        position: relative;
+        top: 30px;
+        left: 715px;
+    }
+    #salir{
+        position: relative;
+        top: 200px;
+    }
+    #menu{
+        position: absolute;
+        top: 20px;
+    }
+}
+@media screen and (max-width:400px){
+    .lupa{
+        width: 200px;
+        height: 100px;
+        left: 230px;
+        top: 5px;
+    }
+    .icon_planta{
+        left: 57px;
+    }
+    header{
+        width: 100%;
+        height: 15%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    .go{
+        position: relative;
+        top: 30px;
+        left: 715px;
+    }
+
+    #menu{
+        position: relative;
+        top: 50px;
+    }
+    #menu{
+        position: absolute;
+        top: 20px;
+    }
+}
+
+
+@media screen and (max-width:300px){
+    .icon_planta{
+        left: 57px;
+    }
+    header{
+        width: 100%;
+        height: 9%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 400%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    #menu{
+        position: relative;
+        top: 40px;
+    }
+    #menu{
+        position: absolute;
+        top: 20px;
+    }
+}
+@media screen and (max-width:200px){
+    .lupa{
+        width: 200px;
+        height: 100px;
+        left: 250px;
+        top: 75px;
+    }
+    .icon_planta{
+        left: 57px;
+        width: 90px;
+        height: 90px;
+    }
+    .nombre{
+        font-size: 50px;
+        top: 95px;
+    }
+    header{
+        width: 100%;
+        height: 15%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    
+
+    .go{
+        position: relative;
+        width: 85px;
+        height: 50px;
+        top: 50px;
+        left: 655px;
+        font-size: 35px;
+    }
+    #buscar{
+        position: relative;
+        left: 400px;
+        top: 100px;
+        width: 250px;
+        height: 50px;
+        font-size: 30px;
+
+    }
+    .acerca_nosotros{
+        position: relative;
+        top: 200px;
+        left: -400px;
+    }
+    .otras_opciones{
+        position: relative;
+        top: 200px;
+        left: -100px;
+
+    }
+    #menu{
+        position: relative;
+        top: 50px;
+    }
+    #menu{
+        position: absolute;
+        top: 20px;
+    }
+
+}

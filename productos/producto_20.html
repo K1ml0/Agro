@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="../CSS/Agro.css">
+    <link rel="stylesheet" href="../CSS/header_productos.css">
+    <link rel="stylesheet" href="../CSS/menu1.css">
+    <link rel="stylesheet" href="../CSS/menu2.css">
+    <link rel="stylesheet" href="../JS/comprar.js">
+    <link rel="icon" href="../Imagenes/Iconos/icon_planta.png">
+    <script src="../JS/Agro.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maiz X 1 kg</title>
+</head>
+<body>
+    <header>
+        <img src="../Imagenes/Iconos/icon_planta.png" class ="icon_planta">
+        <h1 class="nombre">Agro</h1>
+    
+    
+        <div class="buscar">
+            <img src="../Imagenes/Iconos/icon_lupa.png" alt="" class="lupa">
+            <form name="entrada">
+                <input type="input" id="buscar" placeholder="buscar" name="busc">
+          </div>
+          <input onclick=lap_prod() class="go"  type="button" value="ir">
+        </div>
+    
+       
+        <div class="m">
+            <div class="menu1">
+                <nav class="acerca_nosotros">
+                    <ul>
+                        <li>
+                            <a >Esta pagina</a>
+                            <ul>
+                                <li><a style="color: antiquewhite;" onclick="on()">Menu</a></li>
+                                <li><a style="color: antiquewhite;" href="">Acerca de nosotros</a></li>
+                                <li><a style="color: antiquewhite;" href="../Agro.html">Regresar</a></li>
+                                <li><a style="color: antiquewhite;" href="">Ayuda</a></li>
+        
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu2">
+                <nav class="otras_opciones">
+                    <ul>
+                        <li>
+                            <a >Otras opciones</a>
+                            <ul>
+                                <li><a style="color: antiquewhite;" href="">Mi perfil</a></li>
+                                <li><a style="color: antiquewhite;" href="">Vender</a></li>
+                                <li><a style="color: antiquewhite;" href="">Configuraciones</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+       
+    </header>
+    <div id="menu">
+        <a class="op1" href="../agro.html #verduras" onclick="cerrar()">Ofertas</a>
+        <a class="op2" href="../agro.html #producto_17" onclick="cerrar()">Frutas y Verduras</a>
+        <h1 id="salir" onclick="cerrar()">X</h1>
+    </div>
+    <div id="co">
+        <div class="imh_ag" id="imh_ag">
+            <h1 id="sali" onclick="salir()">X</h1>
+            <img class="imh_ago" src="../Imagenes/Interes/In_img_4.png" alt="" >
+        </div>
+    </div>
+    <div class="cont">
+        <div class="imagen" onclick="agrandar()" id="img_cop">
+            <img class="img" src="../Imagenes/Interes/In_img_4.png" alt="" >
+        </div>
+        <div class="informaacion">
+            <p class="carac">Caracteristicas</p>
+            <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eveniet voluptatibus ipsam id eos officiis accusamus eum deserunt, qui magni necessitatibus in dolorem praesentium totam eius quidem ut labore perferendis?</p>
+            <p class="carac">Descripcion</p>
+            <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui enim laboriosam, architecto suscipit itaque quidem esse ab dolor labore aut blanditiis provident ipsum earum quisquam eum omnis dolores, perspiciatis pariatur!</p>
+        </div>
+        <div class="especificaciones">
+            <div class="nom">
+                <h1>Maiz X 1 kg</h1>
+            </div>
+            <div class="valor">
+                <p class="val">$9000</p>
+                <h4 class="descueto">10% off</h4>
+            </div>
+            <div class="botnes_compra">
+                <a href="../index.html">
+                    <input type="button" class="bt_comprar" value="Comprar" >
+                </a>
+
+                
+            </div>
+        </div>
+        <div class="informacion"></div>
+    </div>
+     <script src="../JS/comprar.js"></script>
+     <script src="../JS/productos.js"></script>
+
+    
+</body>
+</html>

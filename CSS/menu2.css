@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+
+.menu2{
+    position: absolute;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    width: 100px;
+    top: 2%;
+    left: 67%;
+}
+.otras_opciones{
+    height: 100%;
+}
+.otras_opciones > ul{
+    height: 100%;
+    display: flex;
+}
+.otras_opciones ul  li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+
+}
+.otras_opciones > ul > li > a{
+    width: 200%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color: beige;
+    text-transform: uppercase; /*mayuscula*/
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+.otras_opciones > ul > li > a:hover{
+    transform: scale(1.1);
+    background-color: rgb(1, 87, 237);
+    box-shadow: 0px 0px 10px  rgb(28, 28, 35);
+    border-radius: 10px;
+    align-items: center;
+}
+/*submenu*/
+.otras_opciones ul li ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(137, 137, 137);
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    padding: 14px 0px;
+    visibility: hidden;/*que este oculto*/
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px  rgb(28, 28, 35);
+    z-index: 10;
+
+}
+.otras_opciones ul li:hover ul{
+ 
+        visibility: visible;
+        opacity: 1;
+     
+    
+}
+.otras_opciones ul li ul::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid white;
+    position: absolute;
+
+  
+}
+.otras_opciones ul li ul li a{
+    display: block;/*bloque*/
+    color:  rgb(28, 28, 35);
+    padding: 6px;/*que se separa uno del otro*/
+    padding-left: 14px;
+    margin-top: 10PX;/*SEPARACION ACIA ABAJO*/
+    font-size: 14PX;
+    text-transform: uppercase;/*MAYUSCULA*/
+    transition: all 300ms ease;
+}
+.otras_opciones ul li ul li a:hover{
+    background-color: rgb(1, 87, 237);
+    color: rgb(227, 226, 226);
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px  rgb(28, 28, 35);
+    border: 10px;
+
+
+}
+
+.otras_opciones{
+    height: 100%;
+}
+.otras_opciones > ul{
+    height: 100%;
+    display: flex;
+}
+.otras_opciones ul  li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+
+}
+.otras_opciones > ul > li > a{
+    width: 150%;
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    align-items: center;
+    padding: 14px;
+    color: beige;
+    text-transform: uppercase; /*mayuscula*/
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+.otras_opciones > ul > li > a:hover{
+    transform: scale(1.1);
+    background-color: rgb(1, 87, 237);
+    box-shadow: 0px 0px 10px  rgb(28, 28, 35);
+}
+/*submenu*/
+.otras_opciones ul li ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 68, 68);
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    padding: 14px 0px;
+    visibility: hidden;/*que este oculto*/
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px  rgb(28, 28, 35);
+    z-index: 10;
+
+}
+.otras_opciones ul li:hover ul{
+ 
+        visibility: visible;
+        opacity: 1;
+        top: 45px;
+        left: 0,5px;/*para posisionar el sitio de los sumenus*/
+    
+}
+.otras_opciones ul li ul::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid white;
+    position: absolute;
+ 
+    left: 700px;
+}
+.otras_opciones ul li ul li a{
+    display: block;/*bloque*/
+    color: rgb(0, 0, 0);
+    padding: 6px;/*que se separa uno del otro*/
+    padding-left: 14px;
+    margin-top: 10PX;/*SEPARACION ACIA ABAJO*/
+    font-size: 14PX;
+    text-transform: uppercase;/*MAYUSCULA*/
+    transition: all 300ms ease;
+}
+.otras_opciones ul li ul li a:hover{
+    background-color: rgb(1, 87, 237);
+    color: #fff;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px  rgb(28, 28, 35);
+    border-radius: 10px;
+}

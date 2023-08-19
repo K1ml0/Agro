@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+}
+.m{
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 20%;
+}
+.m1{
+    position: relative;
+    height: 200%;
+    width: 100%;
+    z-index: -1;
+}
+.usuario{
+    position: relative;
+    top: 30px;
+    left: 190px;
+}
+.candado{
+    position: relative;
+    top: 30px;
+    left: 190px;
+}
+.b{
+    position: relative;
+    text-align: center;
+}
+input{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.entrar_como{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tipo{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+} .comprador{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}.productor {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.50);
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+.caja{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.ingresar{
+    position: relative;
+    top: 10px;
+}
+.crear{
+    position: relative;
+    top: -5px;
+}
+.login a{
+    position: relative;
+    height: 50px;
+}
+.login:hover{
+    background-color: rgba(0, 0, 0, 0.70);
+    box-shadow: 0 0 10px blue, 0 0 40px rgb(214, 214, 254), 0 0 80px rgb(1, 78, 242);
+    transition-delay: 0,5s;
+
+
+}
+.recuperar{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    background: rgb(58, 141, 236);
+    font-size:  15px;
+    border-radius: 20px; 
+}
+.nueva{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    background: rgb(58, 141, 236);
+    font-size:  18px;
+    border-radius: 20px; 
+}
+.fondo-boton1{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    background: rgb(58, 141, 236);
+    font-size:  18px;
+    border-radius: 20px;  
+}
+
+
+
+
+
+
+
+
+.login {
+    width: 320px;
+    height: 525px;
+    background-color: rgb(0, 0, 0, 0.50);
+    top: 54%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 50px;
+    border-radius: 20%;
+}
+.login .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+.login h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    display: 22px;
+}
+.login .usuario .contraseña {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    
+
+}
+.login input {
+    width: 80%;
+    margin-bottom: 20px;
+}
+.login input[type="number"],
+.login input[type="text"],
+.login input[type="password"] {
+      border: none;
+      border-bottom: 1px solid rgb(255, 255, 255);
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+}
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(58, 141, 236);
+    font-size:  18px;
+    border-radius: 20px;
+}
+.login input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(58, 141, 236);
+    font-size:  18px;
+    border-radius: 20px;
+}
+.fondo-funcionario{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(58, 141, 236);
+    font-size:  18px;
+    border-radius: 20px;
+}
+.funcionario{ 
+    margin: 10;
+    padding: 0;
+    display: block;
+    text-align: center;
+    font-size:  18px;
+    border-radius: 20px;   
+}
+.selecion{
+    height: 25px;
+    background: rgb(124, 176, 229);
+    font-size:  10px;
+    border-radius: 10px;
+    font-size:  12px;
+
+}
+.login i{
+    background-color: blue;
+}
+
+
+/*adaptacion de celulares*/
+@media screen and (max-width:800px){
+    .contenedor-logo{
+        width: 45%;
+        margin-bottom: 40px;
+        position: absolute;
+        transform: translate(-110%);
+    }
+
+   
+    .menu-navegacion{
+        width: 20%;
+     }
+    
+}
+@media screen and (max-width:800px){
+    .contenedor-logo{
+        width: 45%;
+        margin-bottom: 40px;
+        position: absolute;
+        transform: translate(-110%);
+    }
+    .logo{
+        position: absolute;
+        transform: translate(-110%);
+    }
+
+    .menu-navegacion{
+        width: 20%;
+     }
+    
+}@media screen and (max-width:600px){
+    .contenedor-logo{
+        width: 45%;
+        margin-bottom: 40px;
+        position: absolute;
+        transform: translate(-110%);
+    }
+
+   
+    .menu-navegacion{
+        width: 20%;
+     }
+    
+}

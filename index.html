@@ -1,0 +1,63 @@
+
+<html>
+    <link rel="stylesheet" href="./CSS/ligin.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Imagenes/Iconos/icon_planta.png">
+    <link rel="stylesheet" href="./agro.html">
+    <head>
+        <title > Agro_software </title>
+            <meta charset="UTF-8">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+        <div class="m">
+            <img class="m1" src="./Imagenes/fondo_login.jpg" alt="">
+        </div>
+        <div class="caja">
+            <div class="login" id="login"> 
+                <h1 style="color:rgb(58, 141, 236);; font-size:30px;">Agro Software</h1>
+                <script src="./JS/validacion-login.js"></script>
+                <form name="form" action="./JS/validacion-login.js">
+                    <div href="./" class="usuario">
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    <label class="usuario" for="username"></label>
+                    <input type="text" placeholder="Correo electronico" name="login">
+                     <div class="candado">
+                           <i class='bx bxs-lock-alt'></i>
+                     </div>
+                     <label class="contraseña" for="password"></label>
+                     <input type="password" placeholder="Contraseña" name="password"> 
+                     <div class="b">
+                         <div class="fondo-funcionario">
+                             <div class="formulario">
+                                  <label class="entrar_como"> Entrar como:</label>
+                                  <select class="selecion" name="tipo" >
+                                      <option class="tipo" >Tipo</option>
+                                       <option class="comprador" >Comprador</option>
+                                       <option class="productor" >Productor</option>
+                                  </select>
+                              </div> 
+                          </div>
+                     
+                          <input onclick=ir() type = "button" class="ingresar"  value="Ingresar">
+                        <a href="./">
+                            <input type="button" value="¿Has olvidado tu contraseña?  " class="recuperar">
+                         </a>
+                         <a class="crear" href="/registro.html">
+                           <input type="button" value="Crear cuenta." class="nueva">
+                         </a>
+                     </div>
+                         
+                </form>
+            </div>
+          </div>
+
+    </body>
+</html>

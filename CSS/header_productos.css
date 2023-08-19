@@ -1,0 +1,1736 @@
+header{
+    width: 100%;
+    height: 22%;
+    position:absolute;
+    z-index: 3;
+
+    background-color: rgb(40, 40, 40);
+}
+
+body{
+    background-color: rgb(222, 227, 249);
+
+}main{
+    position: relative;
+    top: 180px;
+}
+section{
+    position: relative;
+    top: 300px;
+}
+
+.nombre{
+    position: absolute;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;/*mayuscula*/
+    padding-left: 30px;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+    top: 20%;
+    left: 1%;
+}
+
+footer{
+    background-color: rgb(40, 40, 40);
+    height: 100%;
+    width: 100%;
+}
+.icon_planta{
+    width: 50px;
+    height: 20x;
+    position: absolute;
+    top: 8%;
+    left: 4.7%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 1px solid;
+    color: white;
+}
+#buscar{
+    background-color:transparent;
+    width: 25%;
+    height: 20%;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+.lupa{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 10%;
+    left: 24%;
+  
+}
+p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.cont{
+    position: absolute;
+    width: 95%;
+    height: 270%;
+    background-color:rgb(82, 113, 255);
+    top: 30%;
+    left: 2.5%;
+}
+.imagen{
+    position: absolute;
+    width: 580px;
+    height: 480px;
+    top: 10px;
+    left: 50px;
+    border-radius: 2px;
+    z-index: 1;
+}
+.especificaciones{
+    position: absolute;
+    width: 450px;
+    height: 96%;
+    background-color: rgb(82, 113, 255);
+    left: 60%;
+    top: 30px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: rgb(40, 40, 40);
+}
+#co{
+    position: relative;
+    width: 1250px;
+    height: 600px;
+    background-color: rgb(0, 0, 0, 0.7);
+    z-index: 2;
+}
+.imh_ag{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    left: 25%;
+    top: 10px;
+}
+.imh_ago{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -50px;
+  
+}
+#co{
+    position: relative;
+    translate: -2000px;
+}
+#salir{
+    position: absolute;
+    color: antiquewhite;
+    text-align: center;
+    left: -600px;
+    top: -70px;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+#sali:hover{
+    box-shadow: 0 0 10px red, 0 0 40px rebeccapurple, 0 0 60px red;
+}
+
+.nom, .valor{
+    position: relative;
+    width: 90%;
+    height: auto;
+    left: 20px;
+    top: 10px;
+   
+}
+.valor{
+    top: 50px;
+}
+.val{
+
+    width: 150px;
+    height: auto;
+    font-size: 40px;
+}
+.descueto{
+    position: relative;
+    left: 170px;
+    top: -40px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+
+.botnes_compra{
+    position: absolute;
+    width: 95%;
+    height: 200px;
+    top: 400px;
+    left: 10px;
+}
+.bt_comprar{
+    position: absolute;
+    top: 10px;
+    width: 100px;
+    height: 50px;
+    left: 37%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    
+}
+.bt_comprar:hover{
+    box-shadow: 0 0 10px rgb(40, 0, 40), 0 0 0px rgb(40, 40, 40), 0 0 5px rgb(40, 40, 40);
+}
+.informaacion{
+    position: absolute;
+    width: 580px;
+    height: 980px;
+
+    top: 520px;
+    left: 50px;
+    
+}
+.carac{
+    top: 50px;
+    text-align: left;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.des{
+    text-align: left;
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.go{
+    position: absolute;
+    width: 50px;
+    height: 35px;
+    background-color: rgb(0, 0, 0, 0.7);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    border-radius: 10px;
+    left: 670px;
+    top: 17px;
+}
+.go:hover{
+    border: 2px solid;
+    color: rgb(1, 87, 237);
+}
+
+@media screen and (max-width:1200px)  {
+    .lupa{
+        width: 200px;
+        height: 100px;
+        left: 150px;
+        top: 30px;
+    }
+    .icon_planta{
+        left: 57px;
+        width: 90px;
+        height: 90px;
+    }
+    .nombre{
+        font-size: 50px;
+        top: 65px;
+    }
+    header{
+        width: 100%;
+        height: 19%;
+        position: fixed;
+   
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+   
+   
+     
+    }
+    
+   
+    .go{
+        position: relative;
+        width: 70px;
+        height: 50px;
+        top: 0px;
+        left: 600px;
+        font-size: 35px;
+    }
+    #buscar{
+        position: relative;
+        left: 300px;
+        top: 50px;
+        width: 250px;
+        height: 50px;
+        font-size: 15px;
+   
+    }
+    .acerca_nosotros{
+        position: relative;
+   
+        left: 0px;
+    }
+    .otras_opciones{
+        position: relative;
+   
+        left: 0px;
+   
+    }
+    .cont{
+        top: 200px;
+    }
+    .icon_planta{
+        left: 57px;
+    }
+   
+    .verduras, .intereses{
+        width: 400%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+    }
+    #co{
+        width: 144%;
+        height: 1000px;
+    }
+   
+    #sali{
+        position: absolute;
+        color: antiquewhite;
+        text-align: center;
+        left: 580px;
+        top: 150px;
+        width: 50px;
+        height: 40px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 10px;
+     
+    }
+    #sali:hover{
+        box-shadow: 0 0 10px red, 0 0 40px rebeccapurple, 0 0 60px red;
+    }
+    .imh_ago{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        width: 600px;
+        height: 400px;
+   
+    }
+    .imagen{
+        top: 100px;
+        width: 700px;
+        height: 400px;
+   
+    }
+    .botnes_compra{
+        top: 200px;
+    
+    }
+    .especificaciones{
+        position: absolute;
+        width: 325px;
+        height: 100%;
+        background-color: rgb(82, 113, 255);
+        left: 100%;
+        top: 0px;
+        border-radius: 5px;
+        border: 1px solid;
+        color: rgb(40, 40, 40);
+    }
+    .informaacion{
+        position: absolute;
+        width: 820px;
+        height: 980px;
+    
+        top: 520px;
+        left: 50px;
+        
+    }
+    
+
+
+
+
+ 
+ 
+ 
+}
+@media screen and (max-width:1100px)  {
+    .lupa{
+     width: 200px;
+     height: 100px;
+     left: 150px;
+     top: 30px;
+ }
+ .icon_planta{
+     left: 57px;
+     width: 90px;
+     height: 90px;
+ }
+ .nombre{
+     font-size: 50px;
+     top: 65px;
+ }
+ header{
+     width: 100%;
+     height: 20%;
+     position: fixed;
+
+ }
+ .verduras, .intereses{
+     width: 200%;
+     height: 480px;
+ }
+ .menu1{
+  
+     max-width: 1900px;
+     height: 200%;
+     width: 905px;
+
+
+  
+ }
+ 
+
+ .go{
+     position: relative;
+     width: 70px;
+     height: 50px;
+     top: 0px;
+     left: 600px;
+     font-size: 35px;
+ }
+ #buscar{
+     position: relative;
+     left: 300px;
+     top: 50px;
+     width: 250px;
+     height: 50px;
+     font-size: 15px;
+
+ }
+ .acerca_nosotros{
+     position: relative;
+
+     left: 0px;
+ }
+ .otras_opciones{
+     position: relative;
+
+     left: 0px;
+
+ }
+ .cont{
+     top: 200px;
+ }
+ .icon_planta{
+     left: 57px;
+ }
+
+ .verduras, .intereses{
+     width: 400%;
+     height: 480px;
+ }
+ .menu1{
+  
+     max-width: 1900px;
+     height: 200%;
+     width: 905px;
+ }
+ #co{
+     width: 144%;
+     height: 1000px;
+ }
+
+ #sali{
+     position: absolute;
+     color: antiquewhite;
+     text-align: center;
+     left: 580px;
+     top: 150px;
+     width: 50px;
+     height: 40px;
+     background-color: rgb(255, 0, 0);
+     border-radius: 10px;
+  
+ }
+ #sali:hover{
+     box-shadow: 0 0 10px red, 0 0 40px rebeccapurple, 0 0 60px red;
+ }
+ .imh_ago{
+     position: relative;
+     top: 300px;
+     left: 0px;
+     width: 600px;
+     height: 400px;
+
+ }
+ .imagen{
+     top: 100px;
+     width: 700px;
+     height: 400px;
+
+ }
+ .botnes_compra{
+     top: 200px;
+ 
+ }
+ .especificaciones{
+     position: absolute;
+     width: 325px;
+     height: 100%;
+     background-color: rgb(82, 113, 255);
+     left: 100%;
+     top: 0px;
+     border-radius: 5px;
+     border: 1px solid;
+     color: rgb(40, 40, 40);
+ }
+ .informaacion{
+     position: absolute;
+     width: 820px;
+     height: 980px;
+ 
+     top: 520px;
+     left: 50px;
+     
+ }
+ 
+ 
+}
+@media screen and (max-width:1000px)  {
+       .lupa{
+        width: 200px;
+        height: 100px;
+        left: 150px;
+        top: 30px;
+    }
+    .icon_planta{
+        left: 57px;
+        width: 90px;
+        height: 90px;
+    }
+    .nombre{
+        font-size: 50px;
+        top: 65px;
+    }
+    header{
+        width: 100%;
+        height: 24%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    
+
+    .go{
+        position: relative;
+        width: 70px;
+        height: 50px;
+        top: 0px;
+        left: 600px;
+        font-size: 35px;
+    }
+    #buscar{
+        position: relative;
+        left: 300px;
+        top: 50px;
+        width: 250px;
+        height: 50px;
+        font-size: 15px;
+
+    }
+    .acerca_nosotros{
+        position: relative;
+        top: 50px;
+        left: -180px;
+    }
+    .otras_opciones{
+        position: relative;
+        top: 50px;
+        left: 100px;
+
+    }
+    .cont{
+        top: 200px;
+    }
+    .icon_planta{
+        left: 57px;
+    }
+
+    .verduras, .intereses{
+        width: 400%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+    }
+    #co{
+        width: 144%;
+        height: 1000px;
+    }
+
+    #sali{
+        position: absolute;
+        color: antiquewhite;
+        text-align: center;
+        left: 580px;
+        top: 150px;
+        width: 50px;
+        height: 40px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 10px;
+    }
+    #sali:hover{
+        box-shadow: 0 0 10px red, 0 0 40px rebeccapurple, 0 0 60px red;
+    }
+    .imh_ago{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        width: 600px;
+        height: 400px;
+
+    }
+    .imagen{
+        top: 100px;
+        width: 700px;
+        height: 400px;
+
+    }
+    .botnes_compra{
+        top: 200px;
+    
+    }
+    .especificaciones{
+        position: absolute;
+        width: 325px;
+        height: 100%;
+        background-color: rgb(82, 113, 255);
+        left: 100%;
+        top: 0px;
+        border-radius: 5px;
+        border: 1px solid;
+        color: rgb(40, 40, 40);
+    }
+    .informaacion{
+        position: absolute;
+        width: 820px;
+        height: 980px;
+    
+        top: 520px;
+        left: 50px;
+        
+    }
+    
+    
+}
+@media screen and (max-width:900px){
+    .lupa{
+        width: 200px;
+        height: 100px;
+        left: 150px;
+        top: 30px;
+    }
+    .icon_planta{
+        left: 57px;
+        width: 90px;
+        height: 90px;
+    }
+    .nombre{
+        font-size: 50px;
+        top: 65px;
+    }
+    header{
+        width: 100%;
+        height: 24%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    
+
+    .go{
+        position: relative;
+        width: 70px;
+        height: 50px;
+        top: 0px;
+        left: 600px;
+        font-size: 35px;
+    }
+    #buscar{
+        position: relative;
+        left: 300px;
+        top: 50px;
+        width: 250px;
+        height: 50px;
+        font-size: 15px;
+
+    }
+    .acerca_nosotros{
+        position: relative;
+        top: 50px;
+        left: -180px;
+    }
+    .otras_opciones{
+        position: relative;
+        top: 50px;
+        left: 100px;
+
+    }
+    .cont{
+        top: 200px;
+    }
+    .icon_planta{
+        left: 57px;
+    }
+
+    .verduras, .intereses{
+        width: 400%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+    }
+    #co{
+        width: 144%;
+        height: 1000px;
+    }
+
+    #sali{
+        position: absolute;
+        color: antiquewhite;
+        text-align: center;
+        left: 580px;
+        top: 150px;
+        width: 50px;
+        height: 40px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 10px;
+    }
+    #sali:hover{
+        box-shadow: 0 0 10px red, 0 0 40px rebeccapurple, 0 0 60px red;
+    }
+    .imh_ago{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        width: 600px;
+        height: 400px;
+
+    }
+    .imagen{
+        top: 100px;
+        width: 700px;
+        height: 400px;
+
+    }
+    .botnes_compra{
+        top: 200px;
+    
+    }
+    .especificaciones{
+        position: absolute;
+        width: 325px;
+        height: 100%;
+        background-color: rgb(82, 113, 255);
+        left: 100%;
+        top: 0px;
+        border-radius: 5px;
+        border: 1px solid;
+        color: rgb(40, 40, 40);
+    }
+    .informaacion{
+        position: absolute;
+        width: 420px;
+        height: 980px;
+    
+        top: 520px;
+        left: 50px;
+        
+    }
+ 
+
+    
+}
+  
+
+
+/*adaptacion de celulares*/
+@media screen and (max-width:800px){
+    .lupa{
+        width: 200px;
+        height: 100px;
+        left: 150px;
+        top: 30px;
+    }
+    .icon_planta{
+        left: 57px;
+        width: 90px;
+        height: 90px;
+    }
+    .nombre{
+        font-size: 50px;
+        top: 65px;
+    }
+    header{
+        width: 100%;
+        height: 24%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    
+
+    .go{
+        position: relative;
+        width: 70px;
+        height: 50px;
+        top: 0px;
+        left: 600px;
+        font-size: 35px;
+    }
+    #buscar{
+        position: relative;
+        left: 300px;
+        top: 50px;
+        width: 250px;
+        height: 50px;
+        font-size: 15px;
+
+    }
+    .acerca_nosotros{
+        position: relative;
+        top: 50px;
+        left: -180px;
+    }
+    .otras_opciones{
+        position: relative;
+        top: 50px;
+        left: 100px;
+
+    }
+    .cont{
+        top: 200px;
+    }
+    .icon_planta{
+        left: 57px;
+    }
+
+    .verduras, .intereses{
+        width: 400%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+    }
+    #co{
+        width: 144%;
+        height: 1000px;
+    }
+
+    #sali{
+        position: absolute;
+        color: antiquewhite;
+        text-align: center;
+        left: 580px;
+        top: 150px;
+        width: 50px;
+        height: 40px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 10px;
+    }
+    #sali:hover{
+        box-shadow: 0 0 10px red, 0 0 40px rebeccapurple, 0 0 60px red;
+    }
+    .imh_ago{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        width: 600px;
+        height: 400px;
+
+    }
+    .imagen{
+        top: 100px;
+        width: 500px;
+        height: 300px;
+
+    }
+    .botnes_compra{
+        top: 200px;
+    
+    }
+    .especificaciones{
+        position: absolute;
+        width: 325px;
+        height: 100%;
+        background-color: rgb(82, 113, 255);
+        left: 100%;
+        top: 0px;
+        border-radius: 5px;
+        border: 1px solid;
+        color: rgb(40, 40, 40);
+    }
+    .informaacion{
+        position: absolute;
+        width: 420px;
+        height: 980px;
+    
+        top: 520px;
+        left: 50px;
+        
+    }
+    
+}
+@media screen and (max-width:700px){
+    .lupa{
+        width: 200px;
+        height: 100px;
+        left: 150px;
+        top: 30px;
+    }
+    .icon_planta{
+        left: 57px;
+        width: 90px;
+        height: 90px;
+    }
+    .nombre{
+        font-size: 50px;
+        top: 65px;
+    }
+    header{
+        width: 100%;
+        height: 25%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    
+
+    .go{
+        position: relative;
+        width: 70px;
+        height: 50px;
+        top: 0px;
+        left: 600px;
+        font-size: 35px;
+    }
+    #buscar{
+        position: relative;
+        left: 300px;
+        top: 50px;
+        width: 250px;
+        height: 50px;
+        font-size: 15px;
+
+    }
+    .acerca_nosotros{
+        position: relative;
+        top: 115px;
+        left: -400px;
+    }
+    .otras_opciones{
+        position: relative;
+        top: 115px;
+        left: -100px;
+
+    }
+    .cont{
+        top: 200px;
+    }
+    .icon_planta{
+        left: 57px;
+    }
+
+    .verduras, .intereses{
+        width: 400%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+    }
+    #co{
+        width: 144%;
+        height: 1000px;
+    }
+
+    #sali{
+        position: absolute;
+        color: antiquewhite;
+        text-align: center;
+        left: 580px;
+        top: 150px;
+        width: 50px;
+        height: 40px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 10px;
+    }
+    #sali:hover{
+        box-shadow: 0 0 10px red, 0 0 40px rebeccapurple, 0 0 60px red;
+    }
+    .imh_ago{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        width: 600px;
+        height: 400px;
+
+    }
+    .imagen{
+        top: 100px;
+        width: 500px;
+        height: 300px;
+
+    }
+    .botnes_compra{
+        top: 200px;
+    
+    }
+    .especificaciones{
+        position: absolute;
+        width: 325px;
+        height: 100%;
+        background-color: rgb(82, 113, 255);
+        left: 100%;
+        top: 0px;
+        border-radius: 5px;
+        border: 1px solid;
+        color: rgb(40, 40, 40);
+    }
+    .informaacion{
+        position: absolute;
+        width: 420px;
+        height: 980px;
+    
+        top: 520px;
+        left: 50px;
+        
+    }
+ 
+   
+    
+
+}
+@media screen and (max-width:600px){
+    .lupa{
+        width: 200px;
+        height: 100px;
+        left: 150px;
+        top: 30px;
+    }
+    .icon_planta{
+        left: 57px;
+        width: 90px;
+        height: 90px;
+    }
+    .nombre{
+        font-size: 50px;
+        top: 65px;
+    }
+    header{
+        width: 100%;
+        height: 25%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    
+
+    .go{
+        position: relative;
+        width: 70px;
+        height: 50px;
+        top: 0px;
+        left: 600px;
+        font-size: 35px;
+    }
+    #buscar{
+        position: relative;
+        left: 300px;
+        top: 50px;
+        width: 250px;
+        height: 50px;
+        font-size: 15px;
+
+    }
+    .acerca_nosotros{
+        position: relative;
+        top: 115px;
+        left: -400px;
+    }
+    .otras_opciones{
+        position: relative;
+        top: 115px;
+        left: -100px;
+
+    }
+    .cont{
+        top: 200px;
+    }
+    .icon_planta{
+        left: 57px;
+    }
+
+    .verduras, .intereses{
+        width: 400%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+    }
+    #co{
+        width: 152%;
+        height: 1000px;
+    }
+
+    #sali{
+        position: absolute;
+        color: antiquewhite;
+        text-align: center;
+        left: -150px;
+        top: 200px;
+        width: 50px;
+        height: 40px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 10px;
+    }
+    #sali:hover{
+        box-shadow: 0 0 10px red, 0 0 40px rebeccapurple, 0 0 60px red;
+    }
+    .imh_ago{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        width: 600px;
+        height: 400px;
+
+    }
+    .imagen{
+        top: 100px;
+        width: 500px;
+        height: 300px;
+
+    }
+    .botnes_compra{
+        top: 200px;
+    
+    }
+    .especificaciones{
+        position: absolute;
+        width: 325px;
+        height: 100%;
+        background-color: rgb(82, 113, 255);
+        left: 100%;
+        top: 0px;
+        border-radius: 5px;
+        border: 1px solid;
+        color: rgb(40, 40, 40);
+    }
+    .informaacion{
+        position: absolute;
+        width: 420px;
+        height: 980px;
+    
+        top: 520px;
+        left: 50px;
+        
+    }
+
+    
+}
+@media screen and (max-width:500px){
+   .lupa{
+        width: 200px;
+        height: 100px;
+        left: 150px;
+        top: 30px;
+    }
+    .icon_planta{
+        left: 57px;
+        width: 90px;
+        height: 90px;
+    }
+    .nombre{
+        font-size: 50px;
+        top: 65px;
+    }
+    header{
+        width: 100%;
+        height: 20%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    
+
+    .go{
+        position: relative;
+        width: 85px;
+        height: 50px;
+        top: 0px;
+        left: 600px;
+        font-size: 35px;
+    }
+    #buscar{
+        position: relative;
+        left: 300px;
+        top: 50px;
+        width: 250px;
+        height: 50px;
+        font-size: 30px;
+
+    }
+    .acerca_nosotros{
+        position: relative;
+        top: 115px;
+        left: -300px;
+    }
+    .otras_opciones{
+        position: relative;
+        top: 115px;
+        left: -100px;
+
+    }
+    .cont{
+        top: 200px;
+    }
+    .icon_planta{
+        left: 57px;
+    }
+
+    .verduras, .intereses{
+        width: 400%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+    }
+    #co{
+        width: 206%;
+        height: 1000px;
+    }
+
+    #sali{
+        position: absolute;
+        color: antiquewhite;
+        text-align: center;
+        left: -150px;
+        top: 200px;
+        width: 50px;
+        height: 40px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 10px;
+    }
+    #sali:hover{
+        box-shadow: 0 0 10px red, 0 0 40px rebeccapurple, 0 0 60px red;
+    }
+    .imh_ago{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        width: 400px;
+        height: 400px;
+
+    }
+    .imagen{
+        top: 100px;
+        width: 200px;
+        height: 200px;
+
+    }
+    .botnes_compra{
+        top: 200px;
+    
+    }
+    .especificaciones{
+        position: absolute;
+        width: 325px;
+        height: 100%;
+        background-color: rgb(82, 113, 255);
+        left: 100%;
+        top: 0px;
+        border-radius: 5px;
+        border: 1px solid;
+        color: rgb(40, 40, 40);
+    }
+    .informaacion{
+        position: absolute;
+        width: 220px;
+        height: 980px;
+    
+        top: 520px;
+        left: 50px;
+        
+    }
+
+    
+}
+@media screen and (max-width:400px){
+    .lupa{
+        width: 200px;
+        height: 100px;
+        left: 150px;
+        top: 30px;
+    }
+    .icon_planta{
+        left: 57px;
+        width: 90px;
+        height: 90px;
+    }
+    .nombre{
+        font-size: 50px;
+        top: 65px;
+    }
+    header{
+        width: 100%;
+        height: 20%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    
+
+    .go{
+        position: relative;
+        width: 85px;
+        height: 50px;
+        top: 0px;
+        left: 600px;
+        font-size: 35px;
+    }
+    #buscar{
+        position: relative;
+        left: 300px;
+        top: 50px;
+        width: 250px;
+        height: 50px;
+        font-size: 30px;
+
+    }
+    .acerca_nosotros{
+        position: relative;
+        top: 115px;
+        left: -300px;
+    }
+    .otras_opciones{
+        position: relative;
+        top: 115px;
+        left: -100px;
+
+    }
+    .cont{
+        top: 200px;
+    }
+    .icon_planta{
+        left: 57px;
+    }
+
+    .verduras, .intereses{
+        width: 400%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+    }
+    #co{
+        width: 206%;
+        height: 1000px;
+    }
+
+    #sali{
+        position: absolute;
+        color: antiquewhite;
+        text-align: center;
+        left: -150px;
+        top: 200px;
+        width: 50px;
+        height: 40px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 10px;
+    }
+    #sali:hover{
+        box-shadow: 0 0 10px red, 0 0 40px rebeccapurple, 0 0 60px red;
+    }
+    .imh_ago{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        width: 400px;
+        height: 400px;
+
+    }
+    .imagen{
+        top: 100px;
+        width: 200px;
+        height: 200px;
+
+    }
+    .botnes_compra{
+        top: 200px;
+    
+    }
+    .especificaciones{
+        position: absolute;
+        width: 325px;
+        height: 100%;
+        background-color: rgb(82, 113, 255);
+        left: 100%;
+        top: 0px;
+        border-radius: 5px;
+        border: 1px solid;
+        color: rgb(40, 40, 40);
+    }
+    .informaacion{
+        position: absolute;
+        width: 220px;
+        height: 980px;
+    
+        top: 520px;
+        left: 50px;
+        
+    }
+
+     
+  
+}
+
+
+@media screen and (max-width:300px){
+    .lupa{
+        visibility: hidden;
+    }
+    .icon_planta{
+        left: 57px;
+        width: 90px;
+        height: 90px;
+    }
+    .nombre{
+        font-size: 50px;
+        top: 95px;
+    }
+    header{
+        width: 100%;
+        height: 20%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    
+
+    .go{
+        position: relative;
+        width: 85px;
+        height: 50px;
+        top: 0px;
+        left: 480px;
+        font-size: 35px;
+    }
+    #buscar{
+        position: relative;
+        left: 200px;
+        top: 50px;
+        width: 250px;
+        height: 50px;
+        font-size: 30px;
+
+    }
+    .acerca_nosotros{
+        position: relative;
+        top: 135px;
+        left: -300px;
+    }
+    .otras_opciones{
+        position: relative;
+        top: 135px;
+        left: -100px;
+
+    }
+    .cont{
+        top: 300px;
+    }
+    .icon_planta{
+        left: 57px;
+    }
+
+    .verduras, .intereses{
+        width: 400%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+    }
+    #co{
+        width: 206%;
+        height: 1000px;
+    }
+
+    #sali{
+        position: absolute;
+        color: antiquewhite;
+        text-align: center;
+        left: -150px;
+        top: 200px;
+        width: 50px;
+        height: 40px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 10px;
+    }
+    #sali:hover{
+        box-shadow: 0 0 10px red, 0 0 40px rebeccapurple, 0 0 60px red;
+    }
+    .imh_ago{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        width: 400px;
+        height: 400px;
+
+    }
+    .imagen{
+        top: 100px;
+        width: 200px;
+        height: 200px;
+
+    }
+    .botnes_compra{
+        top: 200px;
+    
+    }
+    .especificaciones{
+        position: absolute;
+        width: 325px;
+        height: 100%;
+        background-color: rgb(82, 113, 255);
+        left: 100%;
+        top: 0px;
+        border-radius: 5px;
+        border: 1px solid;
+        color: rgb(40, 40, 40);
+    }
+    .informaacion{
+        position: absolute;
+        width: 220px;
+        height: 980px;
+    
+        top: 520px;
+        left: 50px;
+        
+    }
+
+}
+@media screen and (max-width:200px){
+    .lupa{
+        width: 200px;
+        height: 100px;
+        left: 250px;
+        top: 75px;
+    }
+    .icon_planta{
+        left: 57px;
+        width: 90px;
+        height: 90px;
+    }
+    .nombre{
+        font-size: 50px;
+        top: 95px;
+    }
+    header{
+        width: 100%;
+        height: 15%;
+        position: fixed;
+
+    }
+    .verduras, .intereses{
+        width: 200%;
+        height: 480px;
+    }
+    .menu1{
+     
+        max-width: 1900px;
+        height: 200%;
+        width: 905px;
+
+
+     
+    }
+    
+
+    .go{
+        position: relative;
+        width: 85px;
+        height: 50px;
+        top: 50px;
+        left: 655px;
+        font-size: 35px;
+    }
+    #buscar{
+        position: relative;
+        left: 400px;
+        top: 100px;
+        width: 250px;
+        height: 50px;
+        font-size: 30px;
+
+    }
+    .acerca_nosotros{
+        position: relative;
+        top: 200px;
+        left: -400px;
+    }
+    .otras_opciones{
+        position: relative;
+        top: 200px;
+        left: -100px;
+
+    }
+}

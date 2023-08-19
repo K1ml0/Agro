@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;  
+    text-decoration: none;
+}
+
+
+
+
+
+/*barra menu*/
+
+
+nav{
+    height: 100%;
+}
+nav > ul{
+    height: 100%;
+    display: flex;
+}
+nav  ul  li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+
+}
+nav > ul > li > a{
+    width: 300%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color: beige;
+    text-transform: uppercase; /*mayuscula*/
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+nav > ul > li > a:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+    box-shadow: 0px 0px 10px0px  rgb(28, 28, 35);
+}
+/*submenu*/
+nav ul li ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    position: relative;
+    top: 10px;
+    left: -1px;
+    padding: 14px 0px;
+    visibility: hidden;/*que este oculto*/
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px  rgb(28, 28, 35);
+    z-index: 10;
+
+}
+nav ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 10px;
+}
+nav ul li ul::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid white;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}
+nav ul li ul li a{
+    display: block;/*bloque*/
+    color: brown;
+    padding: 6px;/*que se separa uno del otro*/
+    padding-left: 14px;
+    margin-top: 10PX;/*SEPARACION ACIA ABAJO*/
+    font-size: 14PX;
+    text-transform: uppercase;/*MAYUSCULA*/
+    transition: all 300ms ease;
+}
+nav ul li ul li a:hover{
+    background-color: rgb(1, 87, 237);
+    color: #fff;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px  rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu{
+    position: relative;
+    
+}
+
+.menu1{
+    position: absolute;
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+    width: 105px;
+    top: 2%;
+    left: 80%;
+ 
+}
+.acerca_nosotros{
+    height: 100%;
+}
+.acerca_nosotros > ul{
+    height: 100%;
+    display: flex;
+}
+.acerca_nosotros ul  li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+
+}
+.acerca_nosotros > ul > li > a{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color: beige;
+    text-transform: uppercase; /*mayuscula*/
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+.acerca_nosotros > ul > li > a:hover{
+    transform: scale(1.1);
+    background-color: rgb(1, 87, 237);
+    box-shadow: 0px 0px 10px0px  rgb(28, 28, 35);
+    border-radius: 10px;
+    align-items: center;
+}
+/*submenu*/
+.acerca_nosotros ul li ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 68, 68);
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    padding: 14px 0px;
+    visibility: hidden;/*que este oculto*/
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px rgba(6, 6, 6, 0.89);
+    z-index: 10;
+
+}
+.acerca_nosotros ul li:hover ul{
+ 
+        visibility: visible;
+        text-align: center;
+        opacity: 1;
+        top: 70px;
+    
+}
+.acerca_nosotros ul li ul:before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid white;
+    position: absolute;
+    top: -1500px;
+    left: 500px;
+}
+.acerca_nosotros ul li ul li a{
+    display: block;/*bloque*/
+    color: rgb(12, 12, 12);
+    padding: 6px;/*que se separa uno del otro*/
+    padding-left: 14px;
+    margin-top: 10PX;/*SEPARACION ACIA ABAJO*/
+    font-size: 14PX;
+    text-transform: uppercase;/*MAYUSCULA*/
+    transition: all 300ms ease;
+}
+.acerca_nosotros ul li ul li a:hover{
+    background-color: rgb(1, 87, 237);
+    color: rgb(227, 226, 226);
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px rgb(28, 28, 35);
+    border: 10px;
+
+
+}
+/*---------------------------------------------------------------------------------------------------*/
+/*barra menu*/
+
+.m{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+.acerca_nosotros{
+    height: 100%;
+}
+.acerca_nosotros > ul{
+    height: 100%;
+    display: flex;
+}
+.acerca_nosotros ul  li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+
+}
+.acerca_nosotros > ul > li > a{
+    width: 110%;
+    height: 30%;
+    display: flex;
+    font-size: 18px;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block;
+    letter-spacing: 1px;
+    align-items: center;
+    padding: 14px;
+    color: beige;
+    text-transform: uppercase; /*mayuscula*/
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+.acerca_nosotros > ul > li > a:hover{
+    transform: scale(1.1);
+    background-color: rgb(1, 87, 237);
+    box-shadow: 0px 0px 10px 0px  rgb(28, 28, 35);
+}
+/*submenu*/
+.acerca_nosotros ul li ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 68, 68);
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    padding: 14px 0px;
+    visibility: hidden;/*que este oculto*/
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px  rgb(28, 28, 35);
+    z-index: 10;
+
+}
+.acerca_nosotros ul li:hover ul{
+ 
+        visibility: visible;
+        opacity: 1;
+        top: 50px;
+        left: 0,5px;/*para posisionar el sitio de los sumenus*/
+    
+}
+.acerca_nosotros ul li ul::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid white;
+    position: absolute;
+    top: -140px;
+    left: 700px;
+}
+.acerca_nosotros ul li ul li a{
+    display: block;/*bloque*/
+    color:  rgb(28, 28, 35);
+    padding: 6px;/*que se separa uno del otro*/
+    padding-left: 14px;
+    margin-top: 10PX;/*SEPARACION ACIA ABAJO*/
+    font-size: 14PX;
+    text-transform: uppercase;/*MAYUSCULA*/
+    transition: all 300ms ease;
+}
+.acerca_nosotros ul li ul li a:hover{
+    background-color: rgb(1, 87, 237);
+    color: #fff;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px  rgb(28, 28, 35);
+    border-radius: 10px;
+}
